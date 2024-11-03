@@ -25,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "favoriteNumber",
+				"name": "myFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,7 +63,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "person",
+				"name": "people",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -134,11 +134,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x6ca2130fcbc05cdf39e165c8a86097c434cb490edd837503ce15267019868c9a",
+			"keccak256": "0xba933e509e413a6c5316347a09960ffd69cdc079a01480a74b57f8f0cb11aece",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8c83700858c0fd278793c23d1cdb26b2efbd55d303d03cae585bd43096787369",
-				"dweb:/ipfs/QmV5v9HEFJpQN6cJfbvpH7gwPes92ews1FbMoSu5vZ9ZmU"
+				"bzz-raw://2b2cab549208ce4c5bb7223c1e08c2209b4245d313c7844d5a75477de50ecedc",
+				"dweb:/ipfs/QmT9ptiWjLsyz6o7PrKYz4YtZ49damWxadBcXWus3nzU8q"
 			]
 		}
 	},
