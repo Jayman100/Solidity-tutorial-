@@ -1,6 +1,6 @@
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.19 ;
 
 
 contract SimpleStorage {
@@ -10,7 +10,8 @@ contract SimpleStorage {
 
     //Types: String, boolean, address, uint, int, bytes
     // The variable favoriteNumber get initialized to zero
-    uint256 public myFavoriteNumber ;
+    uint256 public myFavoriteNumber ;  
+
 
     // How mapping works?
     mapping (string => uint256) public  nameToFavoriteNumber;
