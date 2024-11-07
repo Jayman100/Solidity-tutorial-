@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -25,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "favoriteNumber",
+				"name": "myFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,7 +63,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "person",
+				"name": "people",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -134,19 +134,19 @@
 	},
 	"sources": {
 		"contracts/ExtraStorage.sol": {
-			"keccak256": "0x37c442d9b7d27d301105a06d0960fb78bf7350ceb489f289a5df9815e01f5888",
+			"keccak256": "0x8d801583d262845fe148b7e997b69573b042719c27d6ff762f48e0eac0e29c8c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://898a02875374eaaa34130fb23d719f38614864be162960cb93d62a6ba022cbdc",
-				"dweb:/ipfs/QmToCn2hfPCYEusDxK93jvsVkjWARxMJ5Ep74xAME3QZAN"
+				"bzz-raw://a2fe8af00330616ca8e308b0e2f7bd4a13dce5e2c4bf8d2e154f19580220c13d",
+				"dweb:/ipfs/QmY6c2zUUFefYmxzdpruPbFD8mTigEjpte1G3WrxDZnXoK"
 			]
 		},
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xe39547a1ab8d4c04d1c54fe5e4a664f12f4203fd80de7051d528020d3406f7a1",
+			"keccak256": "0x63560148642f748278aa935a2aaeaabb02ed327ff7c7c1e1bbd1f739695f8206",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8756b00470e9ef9481c40feff4de7248fa9c7918d6cb5b0cbda82fe368d29e1",
-				"dweb:/ipfs/QmPJ8zsJ6bWtRUw8bwvHc1i2f9wCuoJkcztVvbZtuudRgb"
+				"bzz-raw://b5c077404a1e1d53c588ce7e87d738647f0de8b01ec49a9384df4fe2ca8d1eca",
+				"dweb:/ipfs/QmUbQQFTBfo7p4sja1KJuEMBJgMFrSWSDMvLH2sWjkUHXW"
 			]
 		}
 	},
