@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
 
-import "./PriceConverter.sol";
+import {PriceConverter} from "./PriceConverter.sol";
 
 //Custom error
 error NotOwner();
@@ -16,11 +16,12 @@ contract FundMe {
 
 
     //Constant and immutable keywords for gas efficiency
-    uint256 public  constant MINIMUM_USD = 50 * 1e18;
+    uint256 public  constant MINIMUM_USD = 5 * 1e18;
 
     address[] public funders;
     mapping(address => uint256) public addressToAmountSend;
 
+    
 
     address  public  immutable  i_owner;
 
@@ -33,7 +34,7 @@ contract FundMe {
         //Want to be able to set a minimum fund amount in USD
         //1. How do we send ETH to this contract?
 
-        require(msg.value.getConversionRate() >= MINIMUM_USD, "Did send enough ether"); //This sets the minimum ether to send 
+        require(msg.value.getConversionRate() >= MINIMUM_USD, "Didn't send enough ether"); //This sets the minimum ether to send 
         funders.push(msg.sender);
         addressToAmountSend[msg.sender] += msg.value;
 
@@ -45,6 +46,8 @@ contract FundMe {
 
     }
 
+
+   
     
     // - Withdraw funds
 
