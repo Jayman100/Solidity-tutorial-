@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
 
-import {PriceConverter} from "./PriceConverter.sol";
+import "./PriceConverter.sol";
 
 //Custom error
 error NotOwner();
